@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<title>My test page</title>
+	<link href="styles/style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
+
+	<meta name="description" content="Volpolini es una tienda de moda que vende sus prendas lo más cerca 
+	que se puede y más a sus cliente.">
+
+</head>
+
+<body>
+	<h1>Volpolini</h1>
+	<h2>Tú tienda de moda más cerca que nunca</h2>
+	<img src="images/2.png" alt="My test image">
+	<p>Gran variedad de prendas para señoritas como: </p>
+
+	<ul>
+		<li>Vestidos</li>
+		<li>Faldas</li>
+		<li>Pantalones</li>
+		<li>Complementos</li>
+	</ul>
+
+	<p>¡Y mucho más!</p>
+
+	<h2>Síguenos: </h2>
+	<h3><a href="https://www.instagram.com/volpolini_moda/">Instagram</a></h3>
+
+	<script src="scripts/main.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
+
+	<!--Firebase-->
+	<script>
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyATxvggJD3gF2zYjY3zYM7DpJ8y-_3oB9s",
+			authDomain: "mi-proyecto-personal-2312f.firebaseapp.com",
+			databaseURL: "https://mi-proyecto-personal-2312f.firebaseio.com",
+			projectId: "mi-proyecto-personal-2312f",
+			storageBucket: "mi-proyecto-personal-2312f.appspot.com",
+			messagingSenderId: "228848693718"
+		};
+		firebase.initializeApp(config);
+	</script>
+</body>
+
+</html>
