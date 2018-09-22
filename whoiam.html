@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
+
+    <meta name="description" content="Volpolini es una tienda de moda que vende sus prendas lo más cerca 
+	que se puede y más a sus cliente.">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <a href="index.html">Principal</a>
+            <a href="#">¿Quiénes somos?</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+
+        <h1>Volpolini</h1>
+        <h2>¿Quiénes somos?</h2>
+
+        <img src="images/quienessomos.png" alt="¿Quiénes somos?">
+
+    </header>
+
+    <main>
+
+        <p>
+            En el <b>verano de 2018</b> nos propusimos crear una tienda de moda con el fin de seleccionar una gran
+            variedad de productos de mayor calidad con los precios más competitivos para nuestros clientes más exigentes. 
+            Tras varios meses de mucho <i>apoyo</i> conseguimos traer más por mucho menos. Por ahora, toda nuestra colección se 
+            encuentra en nuestra <i>tienda física</i> y en un futuro deseamos crear un sistema de venta <b>online.</b>
+        </p>
+
+        <p>
+            Somos una <b>empresa local</b> con mucha experiencia en el sector textil. Mimamos los detalles y el ofrecer un
+            buen servicio a nuestros clientes,
+            con confianza y garantías.
+        </p>
+
+        <p>
+            Somos <b>especialistas</b> en moda textil para hombre y mujer y seleccionamos la gama de productos de mayor
+            calidad con los precios más competitivos.
+        </p>
+
+    </main>
+
+    <footer>
+        <h2>Síguenos: </h2>
+
+        <a href="https://www.instagram.com/volpolini_moda/" title="Instagram"><img src="images/icono-instagram.png"
+                width="26" height="25" alt="Instagram" /></a>
+
+
+        <a href="https://www.facebook.com/volpolini.volpolini" title="Facebook"><img src="images/icono-facebook.png"
+                width="26" height="25" alt="Facebook" /></a>
+
+    </footer>
+
+    <!--Scripts-->
+
+    <script src="scripts/main.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
+
+    <!--Firebase-->
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyATxvggJD3gF2zYjY3zYM7DpJ8y-_3oB9s",
+            authDomain: "mi-proyecto-personal-2312f.firebaseapp.com",
+            databaseURL: "https://mi-proyecto-personal-2312f.firebaseio.com",
+            projectId: "mi-proyecto-personal-2312f",
+            storageBucket: "mi-proyecto-personal-2312f.appspot.com",
+            messagingSenderId: "228848693718"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+</body>
+
+</html>
