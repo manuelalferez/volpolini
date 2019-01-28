@@ -90,6 +90,9 @@ h3 {
 	padding: 20px;
 	margin: 60px;
 }
+.whoiam-year p, .whoiam-members p {
+	font-family: 'Playfair Display', serif;
+}
 
 .contact-location {
 	display: flex;
@@ -109,6 +112,7 @@ h3 {
 	padding: 20px;
 	padding-left: 60px;
 	display: flex;
+	font-family: 'Playfair Display', serif;
 }
 
 .contact p {
@@ -120,12 +124,12 @@ h3 {
 }
 
 .location-map {
-	/* padding: 20px; */
+
 	padding-left: 5px;
 	margin: 0;
 	display: flex;
 	background-image: url(../images/geo.jpg);
-	background-size: 500px;
+	background-size: 1000px;
 	background-position-y: center;
 	background-repeat: no-repeat;
 	width: 100%;
@@ -141,12 +145,79 @@ h3 {
 .location-map a {
 	text-decoration: none;
 	color: black;
-	/* margin-left: 20px; */
-		border: 1px solid #CF6956;
-	padding: 10px;
+	border: 1px solid #CF6956;
+	padding: 12px;
 	border-radius: 20px;
 	height: 20px;
+	margin-left: 20px;
 	font-weight: bold;
 	font-size: 20px;
 	background: white;
+	font-family: 'Playfair Display', serif;
+	box-shadow: 0 21px 21px -12px #777
+}
+
+.timetable-days {
+	display: flex;
+	justify-content: center;
+}
+
+.timetable-days h3 {
+	margin: 0;
+	text-align: center;
+}
+
+.timetable-weekday, .timetable-weekend {
+	border: 1px solid #FFCDC4;
+	margin: 10px;
+	padding: 10px 60px;
+	border-radius: 5px;
+	font-family: 'Playfair Display', serif;
+}
+
+footer {
+	background-color: #E9F7D6;
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Pacifico', cursive;
+	height: 100px;
+	align-items: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: #6C6245
+}
+
+footer .copy {
+	margin-left: 30px;
+}
+
+.social{
+    margin-top: 10px;
+    height: 60px;
+    padding: px;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    
+}
+
+.social-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.social-item-facebook{
+    background-image: url(../images/facebook.svg);
+    height:40px;
+	width: 40px;
+	margin: 10px;
+}
+
+.social-item-instagram{
+    background-image: url(../images/instagram.svg);
+    height: 40px;
+	width: 40px;
+	margin: 10px;
 }
