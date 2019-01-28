@@ -9,20 +9,118 @@
 	<meta name="description" content="Volpolini es una tienda de moda que vende sus prendas lo más cerca 
 	que se puede y más a sus cliente.">
 
+	<link rel="stylesheet" href="./styles/style.css">
+	<link rel="icon" href="./images/icon.png">
+
 </head>
 
 <body>
 
 	<header>
+		<figure class="imageContainer">
+			<img src="./images/logo.png" height="100" alt="Logo de Volpolini">
+		</figure>
+		<nav class="menu">
+			<ul class="menu-list">
+				<li class="menu-item">
+					<a class="link" href="#quienesSomos">¿Quiénes somos?</a>
+				</li>
 
+				<li class="menu-item">
+					<a class="link" href="#contacto-localizacion">Contacto</a>
+				</li>
+			</ul>
+		</nav>
 	</header>
 
 	<main>
+		<section class="hero">
+			<div class="motto">
+				<h1>Tu tienda de moda más cerca que nunca</h1>
+			</div>
+
+			<div class="carrusel">
+				<img src="./images/1.png" height="500" width="500" alt="Foto de mujer con vestido">
+				<img src="./images/2.png" height="500" width="500" alt="Foto de Loperana con vestido">
+				<img src="./images/3.jpg" height="500" width="500" alt="Foto de caballero con traje">
+			</div>
+		</section>
+
+		<section id="quienesSomos" class="whoiam">
+			<h2 class="whoiam-title">
+				¿Quiénes somos?
+			</h2>
+			<div class="whoiam-year">
+				<h3>
+					Año de fundación
+				</h3>
+				<p>
+					Nuestra aventura comenzó en el verano de 2018, cuando nos propusimos crear una tienda de moda
+					lo más accesible en cuanto distancia a nuestros clientes. Después pensamos en seleccionar una
+					gran variedad de productos de la mayor calidad con los precios más competitivos para nuestros clientes más
+					exigentes.
+				</p>
+				<p>
+					Tras varios meses de mucho apoyo conseguimos traer más por mucho menos. Por ahora, toda nuestra
+					colección se encuentra en nuestra tienda física y en un futuro deseamos crear un sistema de venta online.
+				</p>
+			</div>
+
+			<div class="whoiam-members">
+				<h3>
+					Miembros de la empresa
+				</h3>
+				<p>
+					Somos especialistas en moda textil para hombre y mujer, una empresa local con mucha experiencia
+					en el sector. Mimamos cada detalle y buscamos ofrecer un buen servicio a nuestros clientes, con confianza y
+					garantías.
+				</p>
+			</div>
+		</section>
+
+		<section id="contacto-localizacion" class="contact-location">
+			<div class="contact">
+				<div class="contact-telephone">
+					<img src="./images/smartphone.svg" width="35" height="35" alt="Teléfono">
+					<p>665 21 18 42</p>
+				</div>
+				<div class="email">
+					<img src="./images/email.svg" width="35" height="35" alt="Email">
+					<p>volpolini.moda@gmail.com</p>
+				</div>
+			</div>
+			<div class="location">
+				<a href="https://www.google.com/maps/place/Calle+Real,+27,+23780+Lopera,+Ja%C3%A9n/@37.9456676,-4.2153734,17z/data=!3m1!4b1!4m5!3m4!1s0xd6c4d9ffdf695cb:0x94d629d2368a1fef!8m2!3d37.9456676!4d-4.2131847"
+				 target="_blank">Calle Real nº 27, Lopera (Jaén)</a>
+			</div>
+		</section>
+
+		<section class="timetable">
+			<h2 class="timetable-title">Horario</h2>
+			<div>
+				<div class="timetable-weekday">
+					<h3> Lunes-Viernes: </h3>
+					<p><strong>Mañana:</strong> 10-13.30h </p>
+					<p> <strong>Tarde:</strong> 17.30-20.30 </p>
+				</div>
+				<div class="timetable-weekend">
+					<h3>Sábados:</h3>
+					<p><strong>Mañana:</strong> 10-13.30h </p>
+				</div>
+			</div>
+		</section>
 
 	</main>
 
 	<footer>
-
+		<p>Volpolini &copy; 2019 </p>
+		<p>Designed with <3 by <a href="http://twitter.com/manuelalferez" target="_blank">@manuelalferez</a> </p>
+		<section class="social">
+			<div class="social-list">
+				<a href="https://www.facebook.com/volpolini.volpolini" target="_blank" class="social-item-facebook">Facebook</a>
+				<a href="https://www.instagram.com/volpolini_moda/" target="_blank" class="social-item-instagram">Instagram</a>
+			</div>
+		</section>
 	</footer>
 
 </body>

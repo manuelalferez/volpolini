@@ -1,55 +1,53 @@
-html {
-	font-size: 10px;
-	font-family: 'Noto Serif JP', sans-serif;
-	}
-
-h1 {
-	font-size: 60px;
-	text-align: center;
+/* Para cuadros: #F9FFED */
+body{
 	margin: 0;
-	padding: 20px 0;
-	color: #00539F;
-	text-shadow: 3px 3px 1px black; /*El primer valor para desplazamiento horizontal, el segundo valor para
-desplazamiento vertical, el tercer valor para el desenfoque y el cuarto para el color de la sombra.*/
+}
+header{
+	display: flex;
+	height: 100;
+	justify-content: space-between;
 }
 
-p, li {
-	font-size: 16px;
-	line-height: 2;
-	letter-spacing: 1px;
+header .imageContainer{
+	margin: 0;
+	height: inherit;
 }
 
-h2, div ,li,ul{
-	font-size: 20px;
+.menu{
+	display: flex;
+	height: inherit;
+}
+
+.menu-list{
+	display: inherit;
+	height: inherit;
+	margin: 0;
+	padding: 0;
+	padding-right: 30px;
+	 
+}
+
+.menu-item{
+	height: inherit;
+	display: flex;
+	align-items: center;
+	margin: 10px;
+}
+
+.menu li{
+	list-style: none;
+	height: inherit;
+}
+
+.menu a{
+	text-decoration: none;
+	height: inherit;
+}
+
+h1{
+	background-color: #F9FFED;
+	margin: 0;
+	padding: 20px;
 	text-align: center;
 }
 
-h3 {
-	font-size: 16px;
-	text-align: center;
-}
-
-img {
-	display: block;
-	margin: 0 auto;
-}
-
-nav {
-	font-size: 20px;
-	height: 50px;
-	flex: 100%;
-	display: center;
-	background-color: rgba(0,255,0,0.5);
-	padding: 1%;
-	line-height: 1.5;
-  }
-
-footer
-{
-    margin-top:20px;
-    width:100%;
-    height:125px;
-	background-color: #ECCEF5;
-	position: absolute;
-	bottom: 0;
-}
