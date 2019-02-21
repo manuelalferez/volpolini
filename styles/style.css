@@ -1,22 +1,48 @@
-/* Para cuadros: #F9FFED */
+/*#E3E3E3 central
+#F7F7F7 costados*/
+
+html {
+	display: flex;
+	justify-content: center;
+	background: white;
+}
 
 body {
 	margin: 0;
-	font-family: 'Noto Serif SC', serif;
-	/* font-family: 'Playfair Display', serif; */
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	width: 60%;
+	background: #F7F7F7;
+	margin-top: 100px;
+}
+
+main {
+	position: relative;
+	top: 100vh;
+}
+
+.marca {
+	font-family: 'Grand Hotel', cursive;
+	font-size: 3em;
 }
 
 header {
 	display: flex;
 	height: 100px;
-	justify-content: space-between;
+	justify-content: space-evenly;
+	background: #F7F7F7;
+	width: 100vw;
+	top: 0;
+	left: 0;
+	position: fixed;
+	z-index: 5;
 }
 
-header .imageContainer {
+/* header .imageContainer {
 	margin: 0;
 	height: inherit;
 	margin-left: 20px;
-}
+} */
 
 .menu {
 	display: flex;
@@ -52,22 +78,42 @@ header .imageContainer {
 	font-weight: 700;
 }
 
-h1, h2 {
+.hero {
 	background-color: #E9F7D6;
+	/* width: inherit; */
+}
+
+.portada {
+	position: absolute;
+	left: 0;
+	height: 90%;
+	width: 100vw;
+	object-fit: cover;
+}
+
+.motto {
+	position: absolute;
+	left: 0;
+	z-index: 2;
+	color: black;
+	font-family: 'Grand Hotel', cursive;
+	font-size: 5em;
+	width: 100%;
+	top: 45%;
+}
+
+.motto h1 {
+	width: 100%;
+}
+
+h1, h2 {
 	margin: 0;
+	font-weight: normal;
 	padding: 20px;
 	text-align: center;
 }
 
-h2 {
-	background-color: #CF6956;
-}
-
-.hero {
-	background-color: #E9F7D6;
-}
-
-.carrusel {
+/* .carrusel {
 	display: flex;
 	height: 575px;
 	justify-content: space-around;
@@ -77,25 +123,40 @@ h2 {
 
 .carrusel img {
 	object-fit: cover;
-}
+} */
 
 h3 {
 	padding-left: 10px;
 }
 
-.whoiam-year, .whoiam-members {
-	border: 1px solid #FFCDC4;
-	border-radius: 10px;
-	background-color: #F6F6F6;
-	padding: 20px;
-	margin: 60px;
+.whoiam {
+	background-color: #EEC9C7;
+	height: 30%;
 }
+
+.whoiam-year, .whoiam-members {
+	/* border: 1px solid #FFCDC4; */
+/* 	border-radius: 10px; */
+	background: #F7F7F7; 
+	padding: 20px;
+	margin: 30px ;
+}
+
 .whoiam-year p, .whoiam-members p {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Muli', sans-serif;
+}
+
+.whoiam-title{
+	padding-top: 110px;
+}
+
+.contact, .location{
+	background: white;
 }
 
 .contact-location {
 	display: flex;
+	background: #F7F7F7;
 	justify-content: space-between;
 }
 
@@ -112,7 +173,7 @@ h3 {
 	padding: 20px;
 	padding-left: 60px;
 	display: flex;
-	font-family: 'Playfair Display', serif;
+	/* font-family: 'Playfair Display', serif; */
 }
 
 .contact p {
@@ -124,7 +185,6 @@ h3 {
 }
 
 .location-map {
-
 	padding-left: 5px;
 	margin: 0;
 	display: flex;
@@ -153,8 +213,13 @@ h3 {
 	font-weight: bold;
 	font-size: 20px;
 	background: white;
-	font-family: 'Playfair Display', serif;
+/* 	font-family: 'Playfair Display', serif; */
 	box-shadow: 0 21px 21px -12px #777
+}
+
+.timetable{
+	height: 23em;
+	background: #F7F7F7;
 }
 
 .timetable-days {
@@ -172,54 +237,56 @@ h3 {
 	margin: 10px;
 	padding: 10px 60px;
 	border-radius: 5px;
-	font-family: 'Playfair Display', serif;
+/* 	font-family: 'Playfair Display', serif; */
+	background-color: #EEC9C7;
 }
 
 footer {
-	background-color: #E9F7D6;
+	background-color: #01DF9D;
 	display: flex;
 	justify-content: space-between;
 	font-family: 'Pacifico', cursive;
 	height: 100px;
 	align-items: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
-
 footer a {
 	text-decoration: none;
 	color: #6C6245
+	font-family: 'Pacifico', cursive;
 }
 
 footer .copy {
 	margin-left: 30px;
 }
 
-.social{
-    margin-top: 10px;
-    height: 60px;
-    padding: px;
-    border-bottom-left-radius: inherit;
-    border-bottom-right-radius: inherit;
-    
+.social {
+	margin-top: 10px;
+	height: 60px;
+	padding: px;
+	border-bottom-left-radius: inherit;
+	border-bottom-right-radius: inherit;
 }
 
-.social-list{
-    display: flex;
+.social-list {
+	display: flex;
 	justify-content: space-evenly;
 	margin-right: 35px;
-
 }
 
-
-.social-item-facebook{
-    background-image: url(../images/facebook.svg);
-    height:40px;
+.social-item-facebook {
+	background-image: url(../images/facebook.svg);
+	height: 40px;
 	width: 40px;
 	margin: 10px;
 }
 
-.social-item-instagram{
-    background-image: url(../images/instagram.svg);
-    height: 40px;
+.social-item-instagram {
+	background-image: url(../images/instagram.svg);
+	height: 40px;
 	width: 40px;
 	margin: 10px;
 }

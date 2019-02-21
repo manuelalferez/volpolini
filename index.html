@@ -9,8 +9,10 @@
 	<meta name="description" content="Volpolini es una tienda de moda que vende sus prendas lo más cerca 
 	que se puede y más a sus cliente.">
 
-	<link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:300,400,500,700,900|Pacifico|Playfair+Display:400,400i,700,700i,900"
-	 rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:300,400,500,700,900|Pacifico|Playfair+Display:400,400i,700,700i,900|Abril+Fatface|
+		Lobster+Two:400,400i,700,700i|Muli:400,400i,600,600i,700,700i,800,800i,900" rel="stylesheet"> -->
+
+	<link href="https://fonts.googleapis.com/css?family=Pacifico|Muli:200,200i,300,300i,400,400i,600,600i,700|Grand+Hotel" rel="stylesheet">
 	<link rel="stylesheet" href="./styles/style.css">
 	<link rel="icon" href="./images/icon.png">
 
@@ -19,9 +21,10 @@
 <body>
 
 	<header>
-		<figure class="imageContainer">
+		<!-- <figure class="imageContainer">
 			<img src="./images/logo.png" height="100" alt="Logo de Volpolini">
-		</figure>
+		</figure> -->
+		<h1 class="marca">Volpolini</h1>
 		<nav class="menu">
 			<ul class="menu-list">
 				<li class="menu-item">
@@ -35,19 +38,19 @@
 		</nav>
 	</header>
 
+	<section class="hero">
+		<div class="motto">
+			<h1>Tu tienda de moda más cerca que nunca</h1>
+		</div>
+		<img class="portada" src="./images/portada.jpg">
+		<!-- <div class="carrusel">
+			<img src="./images/1.png" height="500" width="500" alt="Foto de mujer con vestido">
+			<img src="./images/2.png" height="500" width="500" alt="Foto de Loperana con vestido">
+			<img src="./images/3.jpg" height="500" width="500" alt="Foto de caballero con traje">
+		</div> -->
+	</section>
+
 	<main>
-		<section class="hero">
-			<div class="motto">
-				<h1>Tu tienda de moda más cerca que nunca</h1>
-			</div>
-
-			<div class="carrusel">
-				<img src="./images/1.png" height="500" width="500" alt="Foto de mujer con vestido">
-				<img src="./images/2.png" height="500" width="500" alt="Foto de Loperana con vestido">
-				<img src="./images/3.jpg" height="500" width="500" alt="Foto de caballero con traje">
-			</div>
-		</section>
-
 		<section id="quienesSomos" class="whoiam">
 			<h2 class="whoiam-title">
 				¿Quiénes somos?
@@ -59,12 +62,14 @@
 				<p>
 					Nuestra aventura comenzó en el verano de 2018, cuando nos propusimos crear una tienda de moda
 					lo más accesible en cuanto distancia a nuestros clientes. Después pensamos en seleccionar una
-					gran variedad de productos de la mayor calidad con los precios más competitivos para nuestros clientes más
+					gran variedad de productos de la mayor calidad con los precios más competitivos para nuestros
+					clientes más
 					exigentes.
 				</p>
 				<p>
 					Tras varios meses de mucho apoyo conseguimos traer más por mucho menos. Por ahora, toda nuestra
-					colección se encuentra en nuestra tienda física y en un futuro deseamos crear un sistema de venta online.
+					colección se encuentra en nuestra tienda física y en un futuro deseamos crear un sistema de venta
+					online.
 				</p>
 			</div>
 
@@ -74,7 +79,8 @@
 				</h3>
 				<p>
 					Somos especialistas en moda textil para hombre y mujer, una empresa local con mucha experiencia
-					en el sector. Mimamos cada detalle y buscamos ofrecer un buen servicio a nuestros clientes, con confianza y
+					en el sector. Mimamos cada detalle y buscamos ofrecer un buen servicio a nuestros clientes, con
+					confianza y
 					garantías.
 				</p>
 			</div>
@@ -95,9 +101,8 @@
 			<div class="location">
 				<h2>Localización</h2>
 				<figure class="location-map">
-					<!-- 	<img src="./images/map.svg" width="35" height="35" alt="Ubicación (mapa)"> -->
 					<a href="https://www.google.com/maps/place/Calle+Real,+27,+23780+Lopera,+Ja%C3%A9n/@37.9456676,-4.2153734,17z/data=!3m1!4b1!4m5!3m4!1s0xd6c4d9ffdf695cb:0x94d629d2368a1fef!8m2!3d37.9456676!4d-4.2131847"
-					 target="_blank">Calle Real nº 27, Lopera (Jaén)</a>
+						target="_blank">Calle Real nº 27, Lopera (Jaén)</a>
 				</figure>
 			</div>
 		</section>
@@ -117,21 +122,20 @@
 				</div>
 			</div>
 
-		</section>
+		</section> 
+
+		<footer>
+			<p class="copy">Volpolini &copy; 2019 </p>
+			<p>Designed with <3 by <a href="http://twitter.com/manuelalferez" target="_blank">@manuelalferez</a> </p>
+			<section class="social">
+				<div class="social-list">
+					<a href="https://www.facebook.com/volpolini.volpolini" target="_blank" class="social-item-facebook"></a>
+					<a href="https://www.instagram.com/volpolini_moda/" target="_blank" class="social-item-instagram"></a>
+				</div>
+			</section>
+		</footer>
 
 	</main>
-
-	<footer>
-		<p class="copy">Volpolini &copy; 2019 </p>
-		<p>Designed with <3 by <a href="http://twitter.com/manuelalferez" target="_blank">@manuelalferez</a> </p>
-		<section class="social">
-			<div class="social-list">
-				<a href="https://www.facebook.com/volpolini.volpolini" target="_blank" class="social-item-facebook"></a>
-				<a href="https://www.instagram.com/volpolini_moda/" target="_blank" class="social-item-instagram"></a>
-			</div>
-		</section>
-	</footer>
-
 </body>
 
 </html>
