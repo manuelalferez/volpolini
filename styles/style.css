@@ -21,6 +21,11 @@ main {
 .marca {
 	font-family: 'Grand Hotel', cursive;
 	font-size: 3em;
+	color: black;
+}
+
+header a {
+	text-decoration: none;
 }
 
 header {
@@ -115,65 +120,211 @@ h3 {
 }
 
 .whoiam-year, .whoiam-members {
-	background: #F7F7F7; 
+	background: #F7F7F7;
 	padding: 20px;
-	margin: 30px ;
+	margin: 30px;
 }
 
 .whoiam-year p, .whoiam-members p {
 	font-family: 'Muli', sans-serif;
 }
 
-.whoiam-title{
+.whoiam-title {
 	padding-top: 110px;
 }
+#products-sales{
+	background-image: url(../images/fondo-sales.jpg);
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
 
-.products{
+#products-new{
+	background-image: url(../images/fondo-novedades.jpg);
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.products {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
-.product-item{
-	height: 40%;
+.product-item {
+	height: 17em;
 	width: 40%;
-	border: 2px solid rgba(0, 63, 145, 0.219);
-	border-radius: 5px;
+	border: .5px solid rgba(0, 0, 0, 0.219);
 	margin: 1em;
 	background: white;
 	display: flex;
 	justify-content: space-between;
-
+	box-shadow: 0 37px 20px -33px #777;
 }
 
-.products h3{
-	padding: 0;
+.product-price {
+	margin-bottom: 1.5em;
+	border-left: 3px solid #01DF9D;
+	padding-left: .5em;
+	font-size: larger;
+}
+
+.product-price-detail{
+	font-size: .8em;
+}
+
+.product-properties {
+	border-left: 3px solid black;
+	padding-left: .5em;
+}
+
+.product-properties ul {
+	margin: 0 1em;
+	list-style-type: square;
+}
+
+.product-size {
 	margin: 0;
+}
+
+.product-color {
+	margin: 0;
+	display: flex;
+}
+
+.product-color p {
+	margin-right: .5em;
+}
+
+.product-color-colours {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.square-color {
+	width: 1em;
+	height: 1em;
+	margin: 1em .5em 0 0;
+	border: 1px solid black;
+}
+
+#c0002 {
+	background: black;
+}
+
+#c0003 {
+	background: white;
+}
+
+#c0004 {
+	background: #C6C2B7;
+}
+
+#c0005 {
+	background: #723443;
+}
+
+#c0010 {
+	background: #120A8F;
+}
+
+#c0011 {
+	background: #808080;
+}
+
+#c0012 {
+	background: white;
+}
+
+#c0013 {
+	background: #F5F5DC;
+}
+
+#c0014 {
+	background: #FAFAFA;
+}
+
+#c0015 {
+	background: #FFDB58;
+}
+
+#c0016 {
+	background: #FACBD1;
+}
+
+#c0017 {
+	background: black;
+}
+
+#c0018 {
+	background: black;
+}
+
+#c0019 {
+	background: #FFDB58;
+}
+
+#c0020 {
+	background: #F5F5DC;
+}
+#c0021 {
+	background: #861D29;
+}
+#c0022 {
+	background: #F5F5DC;
+}
+#c0023 {
+	background: #F5F5DC;
+}
+#c0024 {
+	background: #F5F5DC;
+}
+#c0025 {
+	background: #F5F5DC;
+}
+#c0026 {
+	background: #F5F5DC;
+}
+
+.products h3 {
+	padding: 0;
+	margin: .5em;
+	margin-left: 0;
 	height: 3em;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border-bottom: 1px solid black;
+	background: rgb(233, 232, 232);
+	/* text-decoration: underline; */
+	/* border-bottom: 1px solid black; */
 }
 
-.imageContainer-product{
-	height: 100%;
+.imageContainer-product {
 	width: 48%;
 	margin: 0;
+	padding-top: 3em;
 }
 
-.imageContainer-product img{
-	height: 100%;
-	width: 100%;
+.imageContainer-product img {
+	height: 76%;
+	width: 106%;
 	object-fit: cover;
 	margin: .5em;
+	border-radius: 2em;
+	transform: rotate(90deg);
+	display: block;
+	margin: auto;
 }
 
-.product-details{
+.product-details {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	width: 48%
 }
 
-.contact, .location{
+.contact, .location {
 	background: white;
 }
 
@@ -187,7 +338,6 @@ h3 {
 	width: 50%;
 	border: 1px solid #FFCDC4;
 	margin: 20px;
-	border-radius: 10px;
 	overflow: hidden;
 	margin-bottom: 30px;
 }
@@ -222,14 +372,17 @@ h3 {
 
 .location img {
 	align-self: center;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
 }
 
 .location-map a {
 	text-decoration: none;
 	color: black;
-	border: 1px solid #CF6956;
+	border: 1px solid white;
 	padding: 12px;
-	border-radius: 20px;
+	/* border-radius: 20px; */
 	height: 20px;
 	margin-left: 20px;
 	font-weight: bold;
@@ -238,7 +391,7 @@ h3 {
 	box-shadow: 0 21px 21px -12px #777
 }
 
-.timetable{
+.timetable {
 	height: 23em;
 	background: #F7F7F7;
 }
@@ -260,7 +413,7 @@ h3 {
 	background-color: #EEC9C7;
 }
 
-.timetable-weekday h3, .timetable-weekend h3{
+.timetable-weekday h3, .timetable-weekend h3 {
 	border-bottom: 1px solid black;
 }
 
@@ -276,6 +429,7 @@ footer {
 	left: 0;
 	right: 0;
 }
+
 footer a {
 	text-decoration: none;
 	color: #6C6245;
