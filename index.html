@@ -9,6 +9,8 @@
 	<meta name="description" content="Volpolini es una tienda de moda que vende sus prendas lo más cerca 
 	que se puede y más a sus cliente.">
 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<link
 		href="https://fonts.googleapis.com/css?family=Pacifico|Muli:200,200i,300,300i,400,400i,600,600i,700|Grand+Hotel"
 		rel="stylesheet">
@@ -20,6 +22,7 @@
 <body>
 
 	<header>
+		<i class="icon-menu burger-bottom" id="burger-menu"></i>
 		<a href="#">
 			<h1 class="marca">Volpolini</h1>
 		</a>
@@ -481,6 +484,34 @@
 		</footer>
 
 	</main>
+
+	<script>
+		const menu = document.querySelector(".menu");
+		const burger = document.querySelector("#burger-menu");
+
+		const ipad = window.matchMedia("screen and (max-width: 768px)");
+		ipad.addListener(validation);
+
+		function validation(event) {
+			if (event.matches) {
+				console.log(event.matches);
+				burger.addEventListener("click", hideShow);
+			} else {
+				console.log(event.matches);
+				burger.removeEventListener("click", hideShow);
+			}
+		}
+		validation(ipad);
+
+		function hideShow(){
+			if(menu.classList.contains("is-active")){
+				menu.classList.remove("is-active");
+			}else{
+				menu.classList.add("is-active");
+			}
+		}
+
+	</script>
 </body>
 
 </html>

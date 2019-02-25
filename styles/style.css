@@ -1,3 +1,29 @@
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.eot?a0tj9p');
+	src: url('../fonts/icomoon.eot?a0tj9p#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?a0tj9p') format('truetype'), url('../fonts/icomoon.woff?a0tj9p') format('woff'), url('../fonts/icomoon.svg?a0tj9p#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+	content: "\e9bd";
+}
+
 html {
 	display: flex;
 	justify-content: center;
@@ -16,6 +42,23 @@ body {
 main {
 	position: relative;
 	top: 100vh;
+}
+
+.burger-bottom {
+	height: 40px;
+	width: 40px;
+	background: #00398A;
+	color: white;
+	padding: 4px;
+	border-radius: 50%;
+	font-size: 25px;
+	line-height: 40px;
+	text-align: center;
+	position: fixed;
+	z-index: 5;
+	left: 15px;
+	top: 25px;
+	display: none;
 }
 
 .marca {
@@ -37,7 +80,7 @@ header {
 	top: 0;
 	left: 0;
 	position: fixed;
-	z-index: 5;
+	z-index: 2;
 }
 
 .menu {
@@ -62,6 +105,10 @@ header {
 .menu li {
 	list-style: none;
 	height: inherit;
+}
+
+.menu.is-active {
+	left: 0;
 }
 
 .menu a {
@@ -90,7 +137,7 @@ header {
 .motto {
 	position: absolute;
 	left: 0;
-	z-index: 2;
+	z-index: 1;
 	color: black;
 	font-family: 'Grand Hotel', cursive;
 	font-size: 5em;
@@ -132,14 +179,15 @@ h3 {
 .whoiam-title {
 	padding-top: 110px;
 }
-#products-sales{
+
+#products-sales {
 	background-image: url(../images/fondo-sales.jpg);
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 }
 
-#products-new{
+#products-new {
 	background-image: url(../images/fondo-novedades.jpg);
 	width: 100%;
 	height: 100%;
@@ -170,7 +218,7 @@ h3 {
 	font-size: larger;
 }
 
-.product-price-detail{
+.product-price-detail {
 	font-size: .8em;
 }
 
@@ -268,21 +316,27 @@ h3 {
 #c0020 {
 	background: #F5F5DC;
 }
+
 #c0021 {
 	background: #861D29;
 }
+
 #c0022 {
 	background: #F5F5DC;
 }
+
 #c0023 {
 	background: #F5F5DC;
 }
+
 #c0024 {
 	background: #F5F5DC;
 }
+
 #c0025 {
 	background: #F5F5DC;
 }
+
 #c0026 {
 	background: #F5F5DC;
 }
@@ -466,4 +520,123 @@ footer .copy {
 	height: 40px;
 	width: 40px;
 	margin: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+	.product-item {
+		width: 69%;
+	}
+	.contact-location {
+		flex-wrap: wrap;
+		margin-bottom: 5em;
+		height: 33em;
+	}
+	.contact, .location {
+		width: 100%;
+		height: 50%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		width: 78%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.motto h1 {
+		font-size: 1em;
+	}
+	body {
+		width: 90%;
+	}
+	.products {
+		font-size: 14px;
+	}
+	.product-item {
+		width: 93%;
+	}
+	.timetable-weekday, .timetable-weekend {
+		padding: 4px 7px;
+		font-size: 12px;
+	}
+	footer {
+		font-size: 10px;
+		height: 6em;
+	}
+	.social-item-facebook, .social-item-instagram {
+		height: 20px;
+		width: 20px;
+		margin: 10px;
+	}
+	.burger-bottom {
+		display: block;
+	}
+	.menu {
+		position: fixed;
+		z-index: 3;
+		top: 0;
+		left: -100vw;
+		background: rgba(0, 57, 138, 0.61);
+		width: 100vw;
+		bottom: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition: 0.3s;
+		font-size: 40px;
+		height: auto;
+	}
+	.menu-list {
+		flex-direction: column;
+		align-items: center;
+	}
+	.menu-item {
+		padding: 5px 9px;
+		margin: 10px;
+		border-radius: 5px;
+		background: rgb(0, 57, 138);
+	}
+	.menu a {
+		height: 90px;
+		color: white;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	body {
+		width: 100%;
+	}
+	header{
+		height: 80px;
+	}
+	.burger-bottom{
+		top: 20px;
+	}
+	.motto h1 {
+		font-size: .6em;
+	}
+	.marca {
+		font-size: 2em;
+	}
+	.menu a {
+		font-size: .7em;
+	}
+	.menu {
+		width: 25%;
+	}
+	.imageContainer-product img{
+		height: 62%;
+		width: 109%;
+	}
+	.contact, .location {
+		font-size: 10px;
+	}
+	.location a{
+		font-size: 12px;
+	}
+	footer{
+		font-size: 5px;
+		height: 15em;
+	}
 }
