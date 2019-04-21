@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.Navbar__bar {
+    display: grid;
+    grid-template-areas: 'brand menu';
+    grid-template-columns: 40% 60%;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+
+}
+
+.Navbar__brand {
+    font-family: 'Parisienne', cursive;
+    font-size: 1.5em;
+    grid-area: brand;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Navbar__brand h1{
+    margin: 0;
+    cursor: pointer;
+    width: 40%;
+    height: 80%;
+}
+.Navbar__brand:hover h1{
+    font-weight: bold;
+}
+
+.Navbar__menu{
+    grid-area: menu;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navbar__menu-list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.Navbar__menu-item{
+    list-style: none;
+}
+
+.Navbar__brand, .Navbar__link{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.Navbar__link{
+    padding: 10px 40px;
+}
+
+.Navbar__link:hover{
+    font-weight: bold;
+}

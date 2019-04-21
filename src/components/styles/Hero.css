@@ -1,0 +1,23 @@
+.Hero {
+    position: relative;
+}
+
+.Hero__image {
+    height: 89vh;
+    width: 100vw;
+    object-fit: cover;
+    margin-top: 10vh;
+}
+
+.Hero__motto__1, .Hero__motto__2, .Hero__motto__3 {
+    margin: 0;
+    position: absolute;
+    top: 44vh;
+    z-index: 1;
+    font-size: 90px;
+}
+
+.Hero__motto__1 {
+    color: white;
+    left: 8%;
+}
