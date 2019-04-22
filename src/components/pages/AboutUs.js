@@ -1,10 +1,15 @@
 import React from "react";
+import "./styles/AboutUs.css";
+import data from "../myData/Hero__AboutUs__data";
+import Hero from "../Hero";
+import History from './AboutUs/History'
 
 function AboutUs() {
   return (
-    <React.Fragment>
-      <h1>About us page</h1>
-    </React.Fragment>
+    <div className="AboutUs">
+      <Hero data={data} />
+      <History/>
+    </div>
   );
 }
 

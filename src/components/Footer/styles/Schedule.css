@@ -1,0 +1,34 @@
+.Schedule{
+    grid-area: schedule;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Schedule_title{
+    margin: 0;
+    text-align: center;
+    padding: 1em;
+    font-size: 2em;
+}
+
+.Schedule__days {
+	display: flex;
+	justify-content: center;
+}
+
+.Schedule__days h3 {
+	margin: 0;
+	text-align: center;
+}
+
+.Schedule__weekday, .Schedule__weekend {
+	border: 3px solid white;
+	margin: 10px;
+	padding: 10px 60px;
+}
+
+.Schedule__weekday h3, .Schedule__weekend h3 {
+	border-bottom: 1px solid white;
+}

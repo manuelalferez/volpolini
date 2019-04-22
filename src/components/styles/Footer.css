@@ -1,0 +1,44 @@
+.Footer{
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100vh;
+    position: relative;
+    z-index: 3;
+    background: #222222;
+    color: white;
+    display: grid;
+    grid-template-areas: 'schedule location' 'social social' 'firm firm' 'made made';
+    grid-auto-columns: 50vw 50vw;
+    grid-auto-rows: 75vh 10vh 5vh 10vh;  
+}
+
+.Footer h1{
+    margin: 0;
+}
+
+.Footer__firm{
+    grid-area: firm;
+}
+
+.Footer__made{
+    grid-area: made;
+}
+
+.Footer__firm, .Footer__made{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.Footer__made__Link{
+    color: white;
+    text-indent: 3px;
+}
+
+.Footer__made__Link:hover{
+    color: #9c9c9c;
+}
+
+.Footer__made__heart{
+    margin: 0 3px;
+}

@@ -1,22 +1,17 @@
-import React from "react";
-import "./styles/Hero.css";
-import data from "./myData/Hero__data";
+import React from 'react';
+import './styles/Hero.css'
 
-function Hero() {
-  return (
-    <div className="Hero">
-        {data.map(element => (
-          <div key={element.key}>
+function Hero__Simple (props) {
+    return(
+        <React.Fragment>
             <img
-              className="Hero__image"
-              src={element.heroImg}
-              alt={element.alt}
+                  className="Hero__image"
+                  src={props.data.heroImg}
+                  alt={props.data.alt}
             />
-            <h1 className={element.className}>{element.heroText}</h1>
-          </div>
-        ))}
-    </div>
-  );
+                <h1 className={props.data.className}>{props.data.heroText}</h1>
+        </React.Fragment>
+    )
 }
 
-export default Hero;
+export default Hero__Simple;

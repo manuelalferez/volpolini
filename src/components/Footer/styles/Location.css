@@ -1,0 +1,30 @@
+.Location {
+    color: white;
+    grid-area: location;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Location__title {
+    margin: 0;
+    padding: 1em;
+    font-size: 2em;
+}
+
+.Location__link {
+    background-image: url(../../../images/Footer__images/map.jpg);
+    background-repeat: no-repeat;
+    padding: 10px 60px;
+    color: white;
+    height: 7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+}
+
+.Location__link:hover{
+    border: 3px solid #9c9c9c;
+}

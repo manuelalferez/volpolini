@@ -1,70 +1,26 @@
-html {
-    overflow-x: hidden;
-}
-
-.Hero {
-    position: relative;
-    display: flex;
-    animation: carousel 10s infinite forwards;
-    animation-delay: 4s;
-}
-
-@keyframes carousel {
-    0% {
-        opacity: 0;
-        transform: translateX(0vh);
-    }
-    16%{
-        opacity: 1;
-        transform: translateX(0vh);
-    }
-    33% {
-        transform: translateX(-197vh);
-        opacity: 1;
-    }
-    50%{
-        transform: translateX(-197vh);
-    }
-    67% {
-        transform: translateX(-393vh);
-        opacity: 1;
-    }
-    83%{
-        transform: translateX(-393vh);
-    }
-    100%{
-        opacity: 0;
-        transform: translateX(-393vh);
-    }
-}
-
 .Hero__image {
     height: 90vh;
     width: 100vw;
     object-fit: cover;
-    margin-top: 10vh;
 }
 
-.Hero__motto__1, .Hero__motto__2, .Hero__motto__3 {
+.Hero__aboutUs__text {
     margin: 0;
     position: absolute;
     top: 44vh;
     z-index: 1;
-    font-size: 90px;
+    font-size: 100px;
     color: white;
+    left: 15%;
 }
 
-.Hero__motto__1 {
-    left: 8%;
-}
-
-.Hero__motto__2 {
-    left: 118%;
-    width: 70%
-}
-
-.Hero__motto__3 {
-    left: 270%;
+.Hero__contact__text {
+    margin: 0;
+    position: absolute;
     top: 22vh;
-    font-size: 110px;
+    z-index: 1;
+    font-size: 120px;
+    color: black;
+    left: 10%;
+    width: 40%;
 }

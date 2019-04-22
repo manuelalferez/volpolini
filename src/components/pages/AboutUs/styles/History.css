@@ -1,0 +1,58 @@
+.History{
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas: 'start' 'team';
+    grid-auto-rows: 45vh 45vh;
+}
+
+.History__start{
+    grid-area: start;
+    display: grid;
+    grid-template: 'title text';
+    grid-auto-columns: 50vw 50vw;
+}
+.History__team{
+    grid-area: team;
+    display: grid;
+    grid-template: 'text title';
+    grid-auto-columns: 50vw 50vw;
+}
+
+.History__start__title{
+    grid-area: title;
+    background-image: linear-gradient(to right, #F5C36C,white)
+}
+.History__start__text__container{
+    grid-area: text;
+}
+
+.History__team__title{
+    grid-area: title;
+    background-image: linear-gradient(to left, #F5C36C,white)
+   
+}
+
+.History__team__text{
+    grid-area: text;
+    display: flex;
+    align-items: center;
+} 
+
+.History__title{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+}
+
+.History__text{
+    font-size: 1.5em;
+    text-indent: 3em;
+    padding: 30px;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+}

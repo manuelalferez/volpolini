@@ -1,0 +1,51 @@
+/* import to icons */
+@font-face {
+    font-family: 'icomoon';
+    src: url('../../../ico/icomoon.eot?p1sklk');
+    src: url('../../../ico/icomoon.eot?p1sklk#iefix') format('embedded-opentype'), url('../../../ico/icomoon.ttf?p1sklk') format('truetype'), url('../../../ico/icomoon.woff?p1sklk') format('woff'), url('../../../ico/icomoon.svg?p1sklk#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook2:before {
+    content: "\ea91";
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+}
+
+/* end imports */
+
+.Social {
+    color: white;
+    grid-area: social;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Social a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    margin: 0 1em;
+}
+
+.Social a:hover{
+    color: #9c9c9c
+}
