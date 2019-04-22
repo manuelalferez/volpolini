@@ -1,0 +1,11 @@
+.Contact{
+    background-color: red;
+}
+
+.Contact__h1{
+    position: relative;
+    top: 10vh;
+    z-index: 100;
+    /* font-size: 50px; */
+    color: blue;
+}

@@ -11,14 +11,14 @@ const data = [
     className: 'Hero__motto__1'
   },
   {
-    heroText: "AÑADIR",
+    heroText: "¿No te gusta? Te lo arreglamos",
     heroImg: IMG__womanDress,
     alt: 'Woman with a green dress ',
     key: 2,
     className: 'Hero__motto__2'
   },
   {
-    heroText: "AÑADIR",
+    heroText: "Tu imagen, nuestro objetivo",
     heroImg: IMG__womanHat,
     alt: 'Woman with a hat',
     key: 3,

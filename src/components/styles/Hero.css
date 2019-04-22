@@ -1,9 +1,45 @@
+html {
+    overflow-x: hidden;
+}
+
 .Hero {
     position: relative;
+    display: flex;
+    animation: carousel 10s infinite forwards;
+    animation-delay: 4s;
+}
+
+@keyframes carousel {
+    0% {
+        opacity: 0;
+        transform: translateX(0vh);
+    }
+    16%{
+        opacity: 1;
+        transform: translateX(0vh);
+    }
+    33% {
+        transform: translateX(-197vh);
+        opacity: 1;
+    }
+    50%{
+        transform: translateX(-197vh);
+    }
+    67% {
+        transform: translateX(-393vh);
+        opacity: 1;
+    }
+    83%{
+        transform: translateX(-393vh);
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(-393vh);
+    }
 }
 
 .Hero__image {
-    height: 89vh;
+    height: 90vh;
     width: 100vw;
     object-fit: cover;
     margin-top: 10vh;
@@ -15,9 +51,20 @@
     top: 44vh;
     z-index: 1;
     font-size: 90px;
+    color: white;
 }
 
 .Hero__motto__1 {
-    color: white;
     left: 8%;
+}
+
+.Hero__motto__2 {
+    left: 118%;
+    width: 70%
+}
+
+.Hero__motto__3 {
+    left: 270%;
+    top: 22vh;
+    font-size: 110px;
 }
