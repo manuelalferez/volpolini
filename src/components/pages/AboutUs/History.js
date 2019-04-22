@@ -9,7 +9,7 @@ function History() {
           Nuestra aventura
         </h1>
         <div className="History__text History__start__text__container">
-          <p className='History__start__text'>
+          <p className="History__start__text">
             Nuestra aventura comenzó en el verano de 2018, cuando nos propusimos
             crear una tienda de moda lo más accesible y cómoda para que nuestros
             clientes puedan encontrar todo tipo de modelos y tallas. Después
@@ -17,7 +17,7 @@ function History() {
             calidad con los precios más competitivos para nuestros clientes más
             exigentes.
           </p>
-          <p className='History__start__text'>
+          <p className="History__start__text">
             Tras varios meses de mucho apoyo conseguimos traer más por mucho
             menos. Por ahora, toda nuestra colección se encuentra en nuestra
             tienda física y en un futuro deseamos crear un sistema de venta

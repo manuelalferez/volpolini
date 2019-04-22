@@ -1,0 +1,11 @@
+.GoogleForm {
+    grid-area: form;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.GoogleForm__form {
+    padding-top: 2em;
+    widows: 100%;
+}

@@ -1,0 +1,35 @@
+.Message__grouper {
+    display: grid;
+    grid-template-areas: 'info info' 'phone form';
+    grid-auto-columns: 50vw 50vw;
+    grid-auto-rows: 100vh 100vh;
+}
+
+.Message__grouper__info {
+    grid-area: info;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Message__grouper__info p, .Message__grouper__info h2, .Message__grouper__info h1 {
+    margin: 0;
+}
+
+.Message__grouper__info h1 {
+    margin-bottom: 2em;
+    font-size: 3em;
+}
+
+.Message__grouper__info h2 {
+    font-size: 2em;
+}
+
+.Message__grouper__info p {
+    font-size: 1.5em;
+}
+
+.Message__grouper__info h2 {
+    margin-top: 1em;
+}

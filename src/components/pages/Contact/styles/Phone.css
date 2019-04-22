@@ -1,0 +1,29 @@
+.Phone {
+    grid-area: phone;
+    position: relative;
+    left: 25%;
+    top: 22vh;
+}
+
+.Phone h1 {
+    margin: 1em 0;
+    width: 40%;
+}
+
+.Phone h3 {
+    margin-bottom: 0;
+    width: 25%;
+}
+
+.Phone p {
+    margin: 0;
+    width: 25%;
+}
+
+.Phone__number img {
+    width: 30px;
+}
+
+.Phone__number p {
+    font-size: 2em;
+}
