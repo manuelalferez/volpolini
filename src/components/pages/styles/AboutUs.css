@@ -2,6 +2,6 @@
     position: relative;
 }
 
-.AboutUs__h1 {
-    margin: 0;
+.Hero__aboutUs__text{
+    font-size: 90px;
 }

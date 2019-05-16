@@ -1,0 +1,41 @@
+.Form__container{
+    grid-area: form;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Form__element{
+    margin: 1em 0;
+}
+
+.Form__element input{
+    width: 200px;
+    height: 20px;
+}
+
+.Form__msg, .Form__name, .Form__email, .Form__phone{
+    display: flex;
+    flex-direction: column;
+}
+
+.Form label{
+    margin: 0 0 10px 0;
+}
+
+.Form__element textarea{
+    height: 100px;
+    width: 500px;
+}
+
+.Form__button button{
+    background: #212121;
+    color: white;
+    height: 3em;
+    width: 5.7em;
+}
+
+.Form__button button:hover{
+    cursor: pointer;
+}

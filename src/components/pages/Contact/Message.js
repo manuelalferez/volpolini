@@ -1,6 +1,6 @@
 import React from "react";
 import Phone from "./Phone";
-import GoogleForm from "./GoogleForm";
+import Form from "./Form";
 import "./styles/Message.css";
 
 function Message(props) {
@@ -14,7 +14,7 @@ function Message(props) {
         <p>Responderemos dentro del horario de atención al cliente.</p>
       </div>
       <Phone scheduleData={props.scheduleData} image={props.image} />
-      <GoogleForm />
+      <Form />
     </div>
   );
 }
