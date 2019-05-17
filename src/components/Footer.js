@@ -24,6 +24,7 @@ function Footer() {
         <a
           href="http://www.manuelalferez.com"
           target="_blank"
+          rel="noopener"
           className="Footer__made__Link"
         >
           @manuelalferez

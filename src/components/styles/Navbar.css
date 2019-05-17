@@ -10,8 +10,8 @@ body {
     grid-template-columns: 40% 60%;
     height: 10vh;
     width: 100vw;
-    position: fixed;
-    z-index: 2;
+   /*  position: fixed;
+    z-index: 2; */
     background-color: white;
 
 }

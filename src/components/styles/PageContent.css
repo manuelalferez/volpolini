@@ -1,0 +1,23 @@
+.PageContent{
+    display: grid;
+    grid-template-areas: 'sidebar products';
+    grid-template-columns: 15vw 85vw;
+    height: 90vh;
+    width: 100vw;
+    margin-bottom: 60vh;
+}
+
+.Sidebar{
+    grid-area: sidebar;
+}
+
+.PageContent__products{
+   /*  display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em; */
+    margin: 5vh 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: products;
+}
