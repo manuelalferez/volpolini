@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "d189a6a132b628d43783",
+    "revision": "de64313473b4166e47a4",
     "url": "/volpolini/static/css/main.9f64e9bd.chunk.css"
   },
   {
-    "revision": "d189a6a132b628d43783",
-    "url": "/volpolini/static/js/main.081419d0.chunk.js"
+    "revision": "de64313473b4166e47a4",
+    "url": "/volpolini/static/js/main.3f0e7b9a.chunk.js"
   },
   {
     "revision": "b244ccefae4ed4d438f3",
     "url": "/volpolini/static/js/runtime~main.10582390.js"
   },
   {
-    "revision": "5410e71cf38b15f99a3a",
-    "url": "/volpolini/static/js/2.966ed064.chunk.js"
+    "revision": "018239a9fb3a66ef5202",
+    "url": "/volpolini/static/js/2.46fa190b.chunk.js"
   },
   {
     "revision": "062fc30777d64da7772f82159dc06458",
@@ -128,15 +128,15 @@ self.__precacheManifest = [
     "url": "/volpolini/static/media/icomoon.dd6894a5.eot"
   },
   {
-    "revision": "87de5da0a53c1a5714db6998812c29c6",
-    "url": "/volpolini/static/media/icomoon.87de5da0.svg"
-  },
-  {
     "revision": "f6dc0acf5158f693e8a79bd52245a9ab",
     "url": "/volpolini/static/media/icomoon.f6dc0acf.woff"
   },
   {
-    "revision": "a10b785f73a648e7f01bd781cdecff8c",
+    "revision": "87de5da0a53c1a5714db6998812c29c6",
+    "url": "/volpolini/static/media/icomoon.87de5da0.svg"
+  },
+  {
+    "revision": "19ef59418ec81dcb4550e669ff2a5a96",
     "url": "/volpolini/index.html"
   }
 ];
