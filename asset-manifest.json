@@ -1,5 +1,5 @@
 {
-  "main.css": "/volpolini/static/css/main.9f64e9bd.chunk.css",
+  "main.css": "/volpolini/static/css/main.5cfe1c64.chunk.css",
   "main.js": "/volpolini/static/js/main.3f0e7b9a.chunk.js",
   "main.js.map": "/volpolini/static/js/main.3f0e7b9a.chunk.js.map",
   "runtime~main.js": "/volpolini/static/js/runtime~main.10582390.js",
@@ -7,9 +7,9 @@
   "static/js/2.46fa190b.chunk.js": "/volpolini/static/js/2.46fa190b.chunk.js",
   "static/js/2.46fa190b.chunk.js.map": "/volpolini/static/js/2.46fa190b.chunk.js.map",
   "index.html": "/volpolini/index.html",
-  "precache-manifest.2e195d1edf5de8df32e6083cb9102b0b.js": "/volpolini/precache-manifest.2e195d1edf5de8df32e6083cb9102b0b.js",
+  "precache-manifest.5acd48e81a8bec64cea1ccf5037c6294.js": "/volpolini/precache-manifest.5acd48e81a8bec64cea1ccf5037c6294.js",
   "service-worker.js": "/volpolini/service-worker.js",
-  "static/css/main.9f64e9bd.chunk.css.map": "/volpolini/static/css/main.9f64e9bd.chunk.css.map",
+  "static/css/main.5cfe1c64.chunk.css.map": "/volpolini/static/css/main.5cfe1c64.chunk.css.map",
   "static/media/aboutUs.jpg": "/volpolini/static/media/aboutUs.5718e5d4.jpg",
   "static/media/contact.jpg": "/volpolini/static/media/contact.cbd6eeb2.jpg",
   "static/media/heart.svg": "/volpolini/static/media/heart.24fcca9b.svg",

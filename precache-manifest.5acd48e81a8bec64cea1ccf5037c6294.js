@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "de64313473b4166e47a4",
-    "url": "/volpolini/static/css/main.9f64e9bd.chunk.css"
+    "revision": "18d335b9c1ff1cffcb37",
+    "url": "/volpolini/static/css/main.5cfe1c64.chunk.css"
   },
   {
-    "revision": "de64313473b4166e47a4",
+    "revision": "18d335b9c1ff1cffcb37",
     "url": "/volpolini/static/js/main.3f0e7b9a.chunk.js"
   },
   {
@@ -120,8 +120,8 @@ self.__precacheManifest = [
     "url": "/volpolini/static/media/map.135f4de7.jpg"
   },
   {
-    "revision": "21c00c34501c5b31fa3569c75846a587",
-    "url": "/volpolini/static/media/icomoon.21c00c34.ttf"
+    "revision": "87de5da0a53c1a5714db6998812c29c6",
+    "url": "/volpolini/static/media/icomoon.87de5da0.svg"
   },
   {
     "revision": "dd6894a520d22f24e1f1e45657d0d358",
@@ -132,11 +132,11 @@ self.__precacheManifest = [
     "url": "/volpolini/static/media/icomoon.f6dc0acf.woff"
   },
   {
-    "revision": "87de5da0a53c1a5714db6998812c29c6",
-    "url": "/volpolini/static/media/icomoon.87de5da0.svg"
+    "revision": "21c00c34501c5b31fa3569c75846a587",
+    "url": "/volpolini/static/media/icomoon.21c00c34.ttf"
   },
   {
-    "revision": "19ef59418ec81dcb4550e669ff2a5a96",
+    "revision": "917b36f9debcb3225bd197b0947a97b5",
     "url": "/volpolini/index.html"
   }
 ];
