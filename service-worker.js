@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/volpolini/precache-manifest.5acd48e81a8bec64cea1ccf5037c6294.js"
+  "/volpolini/precache-manifest.a9dbcf812b2feaa854d87d5176bdb2d2.js"
 );
 
 workbox.clientsClaim();
