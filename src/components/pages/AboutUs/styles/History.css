@@ -1,16 +1,3 @@
-@font-face{
-    font-family: 'myFont';
-    src: url(../../../../fonts/SFProText-Light.ttf);
-    font-weight: 400;
-}
-
-@font-face{
-    font-family: 'myFont';
-    src: url(../../../../fonts/SFProText-Bold.ttf);
-    font-weight: bold;
-}
-
-
 .History {
     position: relative;
     height: 100vh;
@@ -18,7 +5,8 @@
     display: grid;
     grid-template-areas: 'start' 'team';
     grid-auto-rows: 50vh 50vh;
-    font-family: 'myFont';
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
 }
 
 .History__start {

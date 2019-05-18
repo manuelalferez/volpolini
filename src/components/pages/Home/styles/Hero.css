@@ -3,6 +3,7 @@ html {
 }
 
 .Hero {
+  height: 80vh;
   position: relative;
   display: flex;
   animation: carousel 10s infinite forwards;
@@ -38,7 +39,7 @@ html {
 }
 
 .Hero__image {
-  height: 90vh;
+  height: 80vh;
   width: 100vw;
   object-fit: cover;
 }
@@ -48,7 +49,7 @@ html {
 .Hero__motto__3 {
   margin: 0;
   position: absolute;
-  top: 44vh;
+  top: 33vh;
   z-index: 1;
   font-size: 90px;
   color: white;
@@ -56,17 +57,18 @@ html {
 
 .Hero__motto__1 {
   left: 8%;
-  font-size: 70px;
+  font-size: 60px;
 }
 
 .Hero__motto__2 {
-  left: 118%;
-  width: 70%;
+  left: 111%;
+  width: 30%;
   font-size: 70px;
+  top: 22vh;
 }
 
 .Hero__motto__3 {
   left: 270%;
-  top: 22vh;
-  font-size: 110px;
+  top: 11vh;
+  font-size: 80px;
 }

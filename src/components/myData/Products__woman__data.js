@@ -3,50 +3,56 @@ const data = [
     title: "Vestido con escote de pico",
     price: "24,99€",
     new: false,
-    colors: ["black", "yellow"],
-    img: '../images/Products__images/Woman/w00001',
+    colors: ["#D18E25"],
+    gender: 'Woman',
     key: "1"
   },
   {
     title: "Vestido largo de crepé",
     price: "19,99€",
     new: true,
-    colors: ["blue", "yellow"],
+    colors: ["#B4B7B9", "#282327"],
+    gender: 'Woman',
     key: "2"
   },
   {
     title: "Top con encaje y escote en V",
     price: "19,99€",
     new: false,
-    colors: ["blue", "yellow"],
+    colors: ["black"],
+    gender: 'Woman',
     key: "3"
   },
   {
     title: "Pantalón amplio",
     price: "36,99€",
     new: true,
-    colors: ["blue", "yellow"],
+    colors: ["#AF9E90", "#C35726"],
+    gender: 'Woman',
     key: "4"
   },
   {
     title: "Blusa con Iyocell",
     price: "29,99€",
     new: false,
-    colors: ["blue", "yellow"],
+    colors: ["#8D4627", "#DCD0C0"],
+    gender: 'Woman',
     key: "5"
   },
   {
     title: "Vestido cáfcan",
     price: "79,99€",
     new: false,
-    colors: ["blue", "yellow"],
+    colors: ["#D4C694"],
+    gender: 'Woman',
     key: "6"
   },
   {
     title: "Pantalón tobillero sin cierre",
     price: "19,99€",
     new: false,
-    colors: ["blue", "yellow"],
+    colors: ["#A7481A", "#EDEAE3"],
+    gender: 'Woman',
     key: "7"
   },
   {
@@ -54,6 +60,7 @@ const data = [
     price: "24,99€",
     new: false,
     colors: ['black'],
+    gender: 'Woman',
     key: "8"
   },
   {
@@ -61,6 +68,7 @@ const data = [
     price: "34,99€",
     new: false,
     colors: ['white'],
+    gender: 'Woman',
     key: "9"
   }
 ];

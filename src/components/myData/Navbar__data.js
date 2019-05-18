@@ -1,19 +1,11 @@
 const data = [
   {
-    name: "Mujer",
+    name: "MUJER",
     dir: "/mujer"
   },
   {
-    name: "Hombre",
+    name: "HOMBRE",
     dir: "/hombre"
-  },
-  {
-    name: "¿Quiénes somos?",
-    dir: "/quienes-somos"
-  },
-  {
-    name: "Contacto",
-    dir: "/contacto"
   }
 ];
 

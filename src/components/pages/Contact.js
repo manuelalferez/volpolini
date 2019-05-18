@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./styles/Contact.css";
 import data from "../myData/Hero__Contact__data";
-import Hero from "../Hero";
+import Hero from "../Hero__Simple";
 import scheduleData from "../myData/Schedule__data";
 import phoneImage from "../../images/Contact__images/phone.svg";
 import Message from "./Contact/Message";

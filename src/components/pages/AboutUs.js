@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/AboutUs.css";
 import data from "../myData/Hero__AboutUs__data";
-import Hero from "../Hero";
+import Hero from "../Hero__Simple";
 import History from "./AboutUs/History";
 
 function AboutUs() {

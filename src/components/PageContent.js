@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./styles/PageContent.css";
 import Sidebar from "./Sidebar";
-import Product from "./Product";
+import Product from "./Product/Product";
 
 class PageContent extends Component {
   render() {
@@ -13,7 +13,7 @@ class PageContent extends Component {
             {
                 this.props.products.map(item=>(
                     <div key={item.key}>
-                        <Product item={item} path={this.props.path}/>
+                        <Product item={item} category={this.props.category}/>
                     </div>
                 ))
             }

@@ -1,0 +1,35 @@
+.Hero__simple {
+  font-family: "Playfair Display", serif;
+}
+
+.Hero__simple__imageContainer {
+  height: 80vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.Hero__simple__image {
+  height: 80vh;
+  width: 100vw;
+}
+
+.Hero__aboutUs__text {
+  margin: 0;
+  position: absolute;
+  top: 33vh;
+  z-index: 1;
+  font-size: 100px;
+  color: white;
+  left: 15%;
+}
+
+.Hero__contact__text {
+  margin: 0;
+  position: absolute;
+  top: 11vh;
+  z-index: 1;
+  font-size: 100px;
+  color: black;
+  left: 10%;
+  width: 40%;
+}

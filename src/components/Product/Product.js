@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./styles/Product.css";
-import dataImg from "../images/Products__images/Woman/item-image1.jpeg";
+import images from './Product__images'
 
 class Product extends Component {
   constructor(props) {
@@ -14,30 +14,33 @@ class Product extends Component {
   }
 
   render() {
-    var PATH__IMG = this.props.path.concat(
-      "item-image",
-      this.props.item.key,
-      ".jpeg"
-    );
-
-    /* var path =  PATH__IMG.toString(); */
-    var path = "../images/Products__images/Woman/item-image1.jpeg";
-    console.log(`Soy el PATH_IMG:` + path);
+     var path_img = ''
+    if(this.props.category==='woman'){
+      path_img = images[0]
+    }else{
+      path_img = images[1]
+    }
     return (
       <div className="Product">
-        <img className="Product__image" src={dataImg} />
+        <img className="Product__image" src={path_img[this.props.item.key-1]} />
         <div className="Product__description">
           <h1 className="Product__title">{this.props.item.title}</h1>
           <p className="Product__price">{this.props.item.price}</p>
           {this.isNew()}
           <ul className="Product__colors-list">
-            {this.props.item.colors.map(color => (
-              <li
-                key={color + `-` + this.props.item.key}
-                className="Product__colors-list-item"
-                background={color}
-              />
-            ))}
+            {this.props.item.colors.map((color) => {
+                var styles = {
+                  background: color
+                }
+              return(
+                <li
+                  key={color + `-` + this.props.item.key}
+                  className="Product__colors-list-item"
+                  style={styles}
+                />
+              )
+            }
+           )}
           </ul>
         </div>
       </div>
