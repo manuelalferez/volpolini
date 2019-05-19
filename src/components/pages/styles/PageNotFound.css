@@ -1,0 +1,39 @@
+.PageNotFound{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.PageNotFound__title{
+    font-size: 2em;
+    margin: 0 0 .4em 0;
+}
+
+.PageNotFound__description{
+    font-size: 1em;
+    margin: 0;
+    margin-bottom: 2em;
+}
+
+.PageNotFound__return{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #212121;
+    width: 15vw;
+    height: 5vh;
+}
+
+.PageNotFound__return__link{
+    font-size: .8em;
+    text-decoration: none;
+    color: white;
+}
+
+.PageNotFound__return__link:hover{
+    color: #9c9c9c;
+}
+

@@ -23,7 +23,7 @@ class Product extends Component {
     if(this.props.category=='Ver todo'||this.props.category ===this.props.item.category){
       return(
       <div className="Product">
-          {this.plusProduct}
+          {this.props.plusProduct}
          <img className="Product__image" src={path_img[this.props.item.key-1]} />
         <div className="Product__description">
           <h1 className="Product__title">{this.props.item.title}</h1>
