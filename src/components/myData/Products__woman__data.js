@@ -5,6 +5,7 @@ const data = [
     new: false,
     colors: ["#D18E25"],
     gender: 'Woman',
+    category: 'Vestidos',
     key: "1"
   },
   {
@@ -13,6 +14,7 @@ const data = [
     new: true,
     colors: ["#B4B7B9", "#282327"],
     gender: 'Woman',
+    category: 'Vestidos',
     key: "2"
   },
   {
@@ -21,6 +23,7 @@ const data = [
     new: false,
     colors: ["black"],
     gender: 'Woman',
+    category: 'Tops',
     key: "3"
   },
   {
@@ -29,6 +32,7 @@ const data = [
     new: true,
     colors: ["#AF9E90", "#C35726"],
     gender: 'Woman',
+    category: 'Pantalones',
     key: "4"
   },
   {
@@ -37,6 +41,7 @@ const data = [
     new: false,
     colors: ["#8D4627", "#DCD0C0"],
     gender: 'Woman',
+    category: 'Camisas y blusas',
     key: "5"
   },
   {
@@ -45,6 +50,7 @@ const data = [
     new: false,
     colors: ["#D4C694"],
     gender: 'Woman',
+    category: 'Vestidos',
     key: "6"
   },
   {
@@ -53,6 +59,7 @@ const data = [
     new: false,
     colors: ["#A7481A", "#EDEAE3"],
     gender: 'Woman',
+    category: 'Pantalones',
     key: "7"
   },
   {
@@ -61,6 +68,7 @@ const data = [
     new: false,
     colors: ['black'],
     gender: 'Woman',
+    category: 'Vestidos',
     key: "8"
   },
   {
@@ -69,6 +77,7 @@ const data = [
     new: false,
     colors: ['white'],
     gender: 'Woman',
+    category: 'Vestidos',
     key: "9"
   }
 ];

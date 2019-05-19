@@ -6,7 +6,7 @@ import products from '../myData/Products__woman__data'
 function Woman() {
     return (
       <div className="Woman">
-        <PageContent data={data} text='Mujer' products={products} category='woman'/>
+        <PageContent data={data} text='Mujer' products={products} gender='woman'/>
       </div>
     );
 }

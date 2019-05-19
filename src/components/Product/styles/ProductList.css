@@ -1,0 +1,6 @@
+.ProductList{
+    margin: 5vh 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: products;
+}
