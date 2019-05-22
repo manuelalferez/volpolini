@@ -23,8 +23,8 @@ function Footer() {
         by
         <a
           href="http://www.manuelalferez.com"
+          rel="noopener noreferrer"
           target="_blank"
-          rel="noopener"
           className="Footer__made__Link"
         >
           @manuelalferez

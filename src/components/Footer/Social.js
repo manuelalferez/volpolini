@@ -6,7 +6,7 @@ function Social() {
   return (
     <div className="Social">
       {data.map(item => (
-        <a key={item.key} className={item.className} href={item.dir} target="_blank" rel="noopener"/>
+        <a key={item.key} className={item.className} href={item.dir} target="_blank" rel="noopener noreferrer"/>
       ))}
     </div>
   );

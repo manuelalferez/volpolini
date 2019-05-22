@@ -1,9 +1,6 @@
 import React from "react";
 import "./styles/Form.css";
 
-const SRC =
-  "https://docs.google.com/forms/d/e/1FAIpQLSfRajqIlDprc9fpG1cZwAk5eFtUQTfZU5krgMHO4ucOGCWuAg/viewform?embedded=true";
-
 function Form() {
   return (
     <div className="Form__container">

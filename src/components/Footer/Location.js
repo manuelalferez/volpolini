@@ -6,7 +6,7 @@ function Location () {
     return (
         <div className='Location'>
             <h1 className='Location__title'> Localización</h1>
-            <a className='Location__link' href={LOCATION} target="_blank" rel="noopener">Calle Real 27, Lopera (Jaén)</a>
+            <a className='Location__link' href={LOCATION} target="_blank" rel="noopener noreferrer">Calle Real 27, Lopera (Jaén)</a>
         </div>
     )
 }
