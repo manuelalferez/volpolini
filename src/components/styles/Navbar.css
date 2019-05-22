@@ -6,9 +6,9 @@ body {
 
 .Navbar__bar {
   display: grid;
-  grid-template-areas: "littleMenu brand" ". menu";
+  grid-template-areas: "littleMenu brand userBag" ". menu .";
   grid-template-rows: 12vh 8vh;
-  grid-template-columns: 20vw 80vw;
+  grid-template-columns: 20vw 60vw 20vw;
   height: 20vh;
   width: 100vw;
   background-color: white;
@@ -24,6 +24,41 @@ body {
   font-size: .7em;
 }
 
+.Navbar__user__bag{
+  grid-area: userBag;
+  display: flex;
+  margin: 1em .5em 0 0;
+  padding-left: 4em;
+  height: 2em;
+}
+
+.Navbar__user{
+  margin-right: 2em;
+  display: flex;
+}
+
+.Navbar__user__text{
+  font-size: .7em;
+  margin: 0;
+  margin-left: .5em;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+
+.Navbar__bag, .Navbar__user{
+  height: 2em;
+}
+
+.Navbar__bag:hover, .Navbar__user:hover{
+  cursor: pointer;
+}
+
+.Navbar__user img, .Navbar__bag img{
+  width: 1.7em;
+  height: 1.7em;
+}
+
 .Navbar__brand {
   font-family: "Parisienne", cursive;
   font-size: 1.5em;
@@ -31,8 +66,7 @@ body {
   text-align: center;
   display: flex;
   align-items: center;
-  position: relative;
-  left: 25vh;
+  justify-content: center;
 }
 
 .Navbar__brand h1 {
